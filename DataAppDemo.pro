@@ -25,10 +25,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        DataSource.cpp \
+        ScoreInfo.cpp \
+        ScoreInfoModel.cpp \
         main.cpp \
         Widget.cpp
 
 HEADERS += \
+        DataSource.h \
+        ScoreInfo.h \
+        ScoreInfoModel.h \
         Widget.h
 
 # Default rules for deployment.
